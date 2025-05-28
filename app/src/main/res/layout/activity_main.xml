@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/crystalsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кристаллы: 0💎"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnOpenNarutoBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть Наруто🍥 лутбокс (50 кристаллов)"
+        android:layout_below="@id/crystalsTextView"
+        android:background="@color/soft_pink"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnOpenKaguyaSamaBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть Кагуя хочет влюбиться❤️ лутбокс (50 кристаллов)"
+        android:layout_below="@id/btnOpenNarutoBox"
+        android:background="@color/mint"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnOpenChainsawmanBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть лутбокс Человек Бензопила⛓️ (50 кристаллов)"
+        android:layout_below="@id/btnOpenKaguyaSamaBox"
+        android:background="@color/soft_pink"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnOpenBocchitheRockerSamaBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть лутбокс Тихоня-Рокер🎸 (50 кристаллов)"
+        android:layout_below="@id/btnOpenChainsawmanBox"
+        android:background="@color/mint"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnOpenJojoBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть ДжоДжо👊 лутбокс (50 кристаллов)"
+        android:layout_below="@id/btnOpenBocchitheRockerSamaBox"
+        android:background="@color/soft_pink"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnOpenWindBreakerBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть Ветролом💨 лутбокс (50 кристаллов)"
+        android:layout_below="@id/btnOpenJojoBox"
+        android:background="@color/mint"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/btnOpenDungeonMeshiBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть лутбокс Подземелья вкусностей🍗 (50 кристаллов)"
+        android:layout_below="@id/btnOpenWindBreakerBox"
+        android:background="@color/soft_pink"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@id/btnOpenDungeonMeshiBox"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageButton
+            android:id="@+id/btnWatchAd"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/aviasales"
+            android:background="@android:color/transparent"
+            android:contentDescription="Смотреть рекламу"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"/>
+
+        <ImageButton
+            android:id="@+id/btnOpenCollection"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:src="@drawable/chest"
+            android:background="@android:color/transparent"
+            android:contentDescription="Моя коллекция персонажей"
+            android:scaleType="centerCrop"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/adImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="centerCrop"
+        android:background="#000000"/>
+    <ImageButton
+        android:id="@+id/btnOpenSettings"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@android:drawable/ic_menu_manage"
+        android:background="@android:color/transparent"
+        android:contentDescription="Настройки"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"/>
+    
+</RelativeLayout>

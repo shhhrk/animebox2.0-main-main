@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Animebox" parent="android:Theme.Material">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/soft_pink_dark</item>
+        <item name="colorAccent">@color/soft_pink_accent</item>
+    </style>
+
+    <style name="PinkDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:background">@color/black</item>
+    </style>
+</resources> 
